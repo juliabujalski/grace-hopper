@@ -1,0 +1,373 @@
+/*Web downloaded fonts*/
+@font-face {
+  font-family: "Spartan";
+  src: url("../fonts/spartan-webfont.woff2") format("woff2"),
+  url("../fonts/spartan-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kepler";
+  src: url("../fonts/kepler-webfont.woff2") format("woff2"),
+  url("../fonts/kepler-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font: 100%;
+}
+
+
+/*begin document styling*/
+body {
+  margin: auto; /*centers text within browser*/
+  font-weight: 50;
+  color: #000; /*white*/
+  font-family: "Kepler", serif;
+  letter-spacing: 1px;
+}
+
+/*hides navigation title*/
+.visuallyhidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  height: 1px; width: 1px;
+  margin: -1px; padding: 0; border: 0;
+}
+
+/*adjusting navigation styling*/
+nav details {
+  padding: 1em 1em 1em 1em;
+  text-align: right;
+  background-color: rgba(10, 10, 79, 1); /*navy*/
+  color: #fff; /*white*/
+  font-family: "Spartan", sans-serif;
+  text-transform: uppercase;
+  font-size: 12pt; /*smaller than automatic*/
+}
+
+/*adjusting link presentation in navigation*/
+nav a {
+  color: #fff; /*white text*/
+  font-family: "Kepler", Georgia, serif;
+  font-size: 10pt; /*smaller than normal and the rest of the text*/
+  text-transform: capitalize;
+}
+
+nav details ol {
+  overflow: hidden;
+}
+
+nav details li{
+  list-style: none; /*takes out bullets*/
+  text-align: right;
+}
+
+/*Handles block with name and quote*/
+.header {
+  width: 100%; /*stretches color entire width of browser*/
+  height: 5em;
+  z-index: 2;
+  padding: 1em 0 0 0; /*moves it in terms of other elements*/
+  background: rgba(0, 102, 102, .85); /*teal*/
+  display: block;
+  text-align: center;
+  color: #fff; /*white*/
+  line-height: normal;
+}
+
+/*title of page*/
+h1 {
+  font-family: "Spartan", serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0 auto 0 auto;
+}
+
+/*description*/
+.subtitle {
+  width: 100%; /*background color spans width of browser*/
+  display: block;
+  text-align: center;
+  font-family: "Spartan";
+  background: rgba(83, 162, 190, .85); /*light blue*/
+  height: 4.3em;
+  z-index: 1;
+  font-size: 10pt;
+  margin: -1.2em 0 0 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 auto 0 auto;
+  padding: 1em 0 0 0;
+  line-height: normal;
+}
+
+h3 {
+  font-family: "Spartan", serif;
+}
+
+#basic-info {
+  background: rgba(29, 132, 181, .85);
+  color: #fff;
+  !width: 100%;
+  line-height: 1.8em;
+  margin: 0 0 0 0;
+  padding: 1.5em 1em 1em 2em;
+}
+
+#basic-info b {
+  font-family: "Spartan", serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 10pt;
+}
+
+#intro {
+  background: rgba(0, 102, 102, .85);
+  color: #fff;
+  line-height: 1.8em;
+  margin: -1em 0 0 0;
+  padding: 1.5em 1em 1.5em 2em;
+}
+
+#intro b {
+  font-family: "Spartan", serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 10pt;
+}
+
+#seealso {
+  background: rgba(83, 162, 190, .8);
+  color: #fff;
+  line-height: 1.8em;
+  margin: 0 0 0 0;
+  padding: 1.5em 1em 1.5em 2em;
+}
+
+#seealso h2 {
+  font-family: "Spartan", serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 10pt;
+}
+
+figure {
+  margin-left: -2.5em;
+  margin-right: -2.5em;
+}
+
+.headerpic {
+  display: block;
+  margin: -1.2em auto -1em auto;
+  max-width: 90%;
+  max-height: auto;
+}
+
+.text {
+  padding: 1em 1em 1em 1em;
+  line-height: 1.5em;
+}
+
+br {
+  line-height: 35px;
+}
+
+.subtitle br {
+  line-height: 25px;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Spartan", serif;
+  letter-spacing: 2px;
+  width: 100%;
+  text-indent: 30px;
+  text-transform: capitalize;
+  margin: 0em 0 0 0;
+}
+
+#anecdotes h2 {
+  background: rgba(0, 102, 102, .85);
+}
+
+#anecdotes img {
+  width: 100%;
+  max-width: 28em;
+}
+#earlylife {
+  background: #fff;
+}
+
+#earlylife h2 {
+  background: rgba(29, 132, 181, .85);
+}
+
+#earlylife img {
+  max-width: 100%;
+}
+
+#career h2 {
+  background: rgba(0, 102, 102, .85);
+}
+
+#career h4 {
+  font-family: "Spartan", serif;
+  text-transform: uppercase;
+  margin: 1em 0 0 0;
+}
+
+#career img {
+  margin: auto;
+  display: block;
+}
+
+#career #univac-pic {
+  width: 100%;
+  max-width: 40em;
+}
+
+#career #cobol {
+  width: 100%;
+  max-width: 30em;
+}
+
+#death-retirement h2 {
+  background: rgba(83, 162, 190, .85)
+}
+
+#death-retirement h4 {
+  font-family: "Spartan", serif;
+  text-transform: uppercase;
+  margin: 1em 0 0 0;
+}
+
+#awards h2 {
+  background: rgba(29, 132, 181, .85);
+}
+
+#awards b {
+  font-family: "Spartan", serif;
+  font-size: 10pt;
+}
+
+#recognition h2 {
+  background: rgba(0, 102, 102, .85);
+}
+
+.stacked ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+
+@media (min-width: 40em) {
+  #earlylife .stacked .col, #career .stacked .col, #anecdotes .stacked .col {
+    display: inline-block;
+    vertical-align: top;
+    background: #fff;
+  }
+
+  #earlylife .stacked .col {
+    width: 48%;
+  }
+
+  #earlylife {
+    background: #fff;
+  }
+
+  #earlylife a {
+    text-align: right;
+  }
+
+  #earlylife img {
+    max-width: 30em;
+  }
+
+  #career .stacked #ww1-text {
+    width: 70%;
+  }
+
+  #career .stacked #ww1-pic {
+    width: 25%;
+  }
+
+  #career .stacked #univac-text {
+    width: 60%;
+  }
+
+  #career .stacked #univac-pic {
+    width: 100%;
+    max-width: 30em;
+  }
+
+  #career .stacked #univac {
+    width: 38%;
+  }
+
+  #career .stacked #cobol-text {
+    width: 60%;
+  }
+
+  #career .stacked #cobol-pic {
+    width: 39%;
+  }
+
+  #anecdotes .stacked #debugging-text {
+    width: 38%;
+  }
+
+  #anecdotes .stacked #debugging-pic {
+    width: 60%;
+    margin: auto;
+  }
+
+}
+
+
+@media (min-width: 50em) {
+
+  .stacked .col {
+    display: inline-block;
+    vertical-align: top;
+    background: rgba(83, 162, 190, 1);
+    width: 100%;
+  }
+
+  .stacked #index {
+    background: rgba(29, 132, 181, 1)
+  }
+
+  #col1 {
+    width: 39%;
+  }
+
+  #col2 {
+    width: 60.5%;
+    background: rgba(29, 132, 181, .85);
+  }
+
+  .subtitle {
+    font-size: 8pt;
+    max-width: 450pt;
+  }
+
+  #seealso {
+    text-align: right;
+  }
+
+}
+
+@media (min-width: 70em) {
+  #basic-info {
+    font-size: 14pt;
+  }
+
+  .header {
+    font-size: 17pt;
+  }
+}
