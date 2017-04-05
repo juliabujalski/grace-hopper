@@ -23,7 +23,6 @@ html {
 /*begin document styling*/
 body {
   margin: auto; /*centers text within browser*/
-  font-weight: 50;
   color: #000; /*white*/
   font-family: "Kepler", serif;
   letter-spacing: 1px;
