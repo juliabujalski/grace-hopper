@@ -112,7 +112,6 @@ h3 {
 #basic-info {
   background: rgba(29, 132, 181, .85);
   color: #fff;
-  !width: 100%;
   line-height: 1.8em;
   margin: 0 0 0 0;
   padding: 1.5em 1em 1em 2em;
@@ -164,7 +163,6 @@ figure {
   display: block;
   margin: -1.2em auto -1em auto;
   max-width: 90%;
-  max-height: auto;
 }
 
 .text {
